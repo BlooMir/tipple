@@ -1,6 +1,7 @@
 <template>
-  <q-page class="flex justify-center items-center q-pa-md screen-bg">
+  <q-page class="screen-bg flex justify-center items-center q-pa-md">
     <div class="screen-area">
+      <!-- <q-btn color="primary" style="color: #000">테스트용 버튼</q-btn> -->
       <!-- 첫째 줄 -->
       <SingleLetter :line="sentence1"></SingleLetter>
       <div class="domino-floor q-my-lg"></div>
@@ -47,7 +48,6 @@ const sentence6 = 'effect,,,'.split('')
 <style lang="scss" scoped>
 .screen-bg {
   background-color: #000;
-  color: white;
   font-size: 40px;
 }
 .screen-area {
@@ -70,9 +70,10 @@ const sentence6 = 'effect,,,'.split('')
     letter-spacing: 20px;
   }
   .co2e {
-    font-weight: 400;
+    font-weight: 500;
     font-size: 50px;
     padding-right: 40px;
+    /* -webkit-text-stroke: 2px $secondary;  */
   }
 }
 </style>
