@@ -1,0 +1,323 @@
+// app global css in SCSS form
+// @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Brush+Script&family=Nanum+Gothic+Coding:wght@400;700&family=Nanum+Gothic:wght@400;700;800&family=Nanum+Myeongjo:wght@400;700;800&family=Nanum+Pen+Script&family=Noto+Sans+KR:wght@100..900&display=swap');
+
+@font-face {
+  font-family: 'Pretendard';
+  src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Thin.woff')
+    format('woff');
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Pretendard';
+  src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-ExtraLight.woff')
+    format('woff');
+  font-weight: 200;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Pretendard';
+  src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Light.woff')
+    format('woff');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Pretendard';
+  src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff')
+    format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Pretendard';
+  src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Medium.woff')
+    format('woff');
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Pretendard';
+  src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-SemiBold.woff')
+    format('woff');
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Pretendard';
+  src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Bold.woff')
+    format('woff');
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Pretendard';
+  src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-ExtraBold.woff')
+    format('woff');
+  font-weight: 800;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Pretendard';
+  src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Black.woff')
+    format('woff');
+  font-weight: 900;
+  font-style: normal;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+  font-size: 1.6rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  font-size: 2em;
+}
+h2 {
+  font-size: 1.6em;
+}
+h3 {
+  font-size: 1.17em;
+}
+h4 {
+  font-size: 1em;
+}
+h5 {
+  font-size: 0.83em;
+}
+h6 {
+  font-size: 0.75rem;
+}
+
+body {
+  font-family: 'Pretendard', sans-serif;
+  letter-spacing: -0.5px;
+  word-break: keep-all;
+}
+
+.ff-Pretendard {
+  font-family: Pretendard, sans-serif;
+}
+
+.fs8 {
+  font-size: 0.5714285714285714em;
+}
+.fs10 {
+  font-size: 0.7142857142857143em;
+}
+.fs12 {
+  font-size: 0.8571428571428571em;
+}
+.fs14 {
+  font-size: 1em;
+}
+.fs16 {
+  font-size: 1.1428571428571428em;
+}
+.fs18 {
+  font-size: 1.2857142857142858em;
+}
+.fs20 {
+  font-size: 1.4285714285714286em;
+}
+.fs22 {
+  font-size: 1.5714285714285714em;
+}
+.fs24 {
+  font-size: 1.7142857142857142em;
+}
+.fs26 {
+  font-size: 1.8571428571428572em;
+}
+.fs28 {
+  font-size: 2em;
+}
+.fs30 {
+  font-size: 2.142857142857143em;
+}
+.fs32 {
+  font-size: 2.2857142857142856em;
+}
+.fs34 {
+  font-size: 2.4285714285714284em;
+}
+.fs36 {
+  font-size: 2.5714285714285716em;
+}
+.fs38 {
+  font-size: 2.7142857142857144em;
+}
+.fs40 {
+  font-size: 2.857142857142857em;
+}
+
+.border-radius-2 {
+  border-radius: 2px;
+}
+.border-radius-4 {
+  border-radius: 4px;
+}
+.border-radius-6 {
+  border-radius: 6px;
+}
+.border-radius-8 {
+  border-radius: 8px;
+}
+.border-radius-10 {
+  border-radius: 10px;
+}
+.border-radius-12 {
+  border-radius: 12px;
+}
+.border-radius-14 {
+  border-radius: 14px;
+}
+.border-radius-16 {
+  border-radius: 16px;
+}
+.border-radius-18 {
+  border-radius: 18px;
+}
+.border-radius-20 {
+  border-radius: 20px;
+}
+.border-radius-22 {
+  border-radius: 22px;
+}
+.border-radius-24 {
+  border-radius: 24px;
+}
+.border-radius-26 {
+  border-radius: 26px;
+}
+.border-radius-28 {
+  border-radius: 28px;
+}
+.border-radius-30 {
+  border-radius: 30px;
+}
+.border-radius-32 {
+  border-radius: 32px;
+}
+.border-radius-34 {
+  border-radius: 34px;
+}
+.border-radius-36 {
+  border-radius: 36px;
+}
+.border-radius-38 {
+  border-radius: 38px;
+}
+.border-radius-40 {
+  border-radius: 40px;
+}
+
+.fw100 {
+  font-weight: 100;
+}
+.fw200 {
+  font-weight: 200;
+}
+.fw300 {
+  font-weight: 300;
+}
+.fw400 {
+  font-weight: 400;
+}
+.fw500 {
+  font-weight: 500;
+}
+.fw600 {
+  font-weight: 600;
+}
+.fw700 {
+  font-weight: 700;
+}
+.fw800 {
+  font-weight: 800;
+}
+.fw900 {
+  font-weight: 900;
+}
+
+.top_head {
+  padding: 0 48px;
+  background-color: #f5f5f5;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  // min-width: 1200px;
+  .ampm img {
+    height: 24px;
+    margin-top: 0px;
+  }
+}
+
+.gnb {
+  height: 60px;
+  padding: 0 48px;
+  .menu {
+    // top:50%;
+    // position: absolute;
+    // right: 48px;
+  }
+}
+
+.logo {
+  // position: absolute;
+  // left: 48px;
+  // top:50%;
+  span {
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-left: 6px;
+  }
+}
+
+.handle {
+  cursor: pointer;
+}
+
+.edit-menu-item {
+  position: relative;
+  padding: 4px;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+  .close {
+    cursor: pointer;
+  }
+}
+
+.q-field {
+  padding-bottom: 0;
+}
+.q-field.q-field--error .q-field__append {
+  padding-left: 0px;
+}
+.q-field .mdi-alert-circle {
+  display: none;
+}
+.q-field__bottom .q-field__messages {
+  position: absolute;
+  top: -16px;
+  right: 8px;
+  pointer-events: all;
+}
