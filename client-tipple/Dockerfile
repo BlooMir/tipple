@@ -13,9 +13,10 @@ COPY . .
 
 # 의존성 설치
 RUN bun install
-
-# 빌드 (필요하면 build, dev, start 중 선택)
 RUN bun run build
+
+RUN bun add -g serve
+
 
 # 애플리케이션 실행 포트 (notion 참조)
 EXPOSE 2016
