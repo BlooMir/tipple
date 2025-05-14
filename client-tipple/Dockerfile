@@ -17,9 +17,7 @@ RUN bun run build
 
 RUN bun add -g serve
 
-
-# 애플리케이션 실행 포트 (notion 참조)
-EXPOSE 2016
+EXPOSE 3000
 
 # 애플리케이션 실행
 CMD [ "bun", "run", "start" ]
