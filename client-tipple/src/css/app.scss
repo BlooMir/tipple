@@ -231,6 +231,12 @@ body {
 .fs40 {
   font-size: 2.857142857142857em;
 }
+.fs42 {
+  font-size: 3em;
+}
+.fs44 {
+  font-size: 3.2857142857142856em;
+}
 
 .border-radius-2 {
   border-radius: 2px;
@@ -383,4 +389,12 @@ body {
   top: -16px;
   right: 8px;
   pointer-events: all;
+}
+
+.tipple-primary-to-bottom {
+  background: linear-gradient(to bottom, #ce1010 0%, #feffbc 36%, #a3bb74 100%);
+}
+
+.tipple-primary-to-top {
+  background: linear-gradient(to top, #ce1010 0%, #feffbc 36%, #a3bb74 100%);
 }
