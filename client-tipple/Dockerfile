@@ -7,15 +7,18 @@ ENV TZ=Asia/Seoul
 
 # 작업 폴더 설정 및 copy
 WORKDIR /app/client-tipple
-COPY package*.json ./
 
-# 의존성 설치 및 build
-RUN npm install
+# 프로젝트 파일 전체 복사 (bun.lockb 포함)
 COPY . .
-RUN npm run build
+
+# 의존성 설치
+RUN bun install
+
+# 빌드 (필요하면 build, dev, start 중 선택)
+RUN bun run build
 
 # 애플리케이션 실행 포트 (notion 참조)
 EXPOSE 2016
 
 # 애플리케이션 실행
-CMD [ "npm", "run", "start" ]
+CMD [ "bun", "run", "start" ]
