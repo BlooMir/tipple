@@ -6,7 +6,7 @@ RUN apt-get update && apt-get install -y tzdata
 ENV TZ=Asia/Seoul
 
 # 작업 폴더 설정 및 copy
-WORKDIR /app
+WORKDIR /app/client-tipple
 COPY package*.json ./
 
 # 의존성 설치 및 build
