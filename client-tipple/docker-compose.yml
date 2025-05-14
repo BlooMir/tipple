@@ -1,0 +1,10 @@
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    # 여기까지 빌드 옵션
+    container_name: tipple
+    restart: always
+    ports:
+      - '2016:2016' # 외부포트 : 앱 실행포트
