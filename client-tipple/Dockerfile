@@ -1,4 +1,4 @@
-FROM node:22
+FROM oven/bun:1.1.13
 
 # 시간대 package 다운로드
 RUN apt-get update && apt-get install -y tzdata
